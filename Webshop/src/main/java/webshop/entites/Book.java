@@ -30,6 +30,69 @@ public class Book {
     private int price;
     @Lob
     private String image;
+
+    public Book() {
+    }
+
+    public Book(String title, String writer, int releaseDate, int price, String image) {
+        this.title = title;
+        this.writer = writer;
+        this.releaseDate = releaseDate;
+        this.price = price;
+        this.image = image;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getWriter() {
+        return writer;
+    }
+
+    public void setWriter(String writer) {
+        this.writer = writer;
+    }
+
+    public int getReleaseDate() {
+        return releaseDate;
+    }
+
+    public void setReleaseDate(int releaseDate) {
+        this.releaseDate = releaseDate;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+    
+    
+
+    public Book(Long id, String title, String writer, int releaseDate, int price, String image) {
+        this.id = id;
+        this.title = title;
+        this.writer = writer;
+        this.releaseDate = releaseDate;
+        this.price = price;
+        this.image = image;
+    }
+    
     
 
     public Long getId() {
