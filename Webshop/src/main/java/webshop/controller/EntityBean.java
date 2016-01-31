@@ -5,10 +5,15 @@
  */
 package webshop.controller;
 
+import javax.ejb.Stateless;
+
 /**
  *
  * @author PETI
  */
+@Stateless
 public class EntityBean {
+    
+    
     
 }
